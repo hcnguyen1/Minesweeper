@@ -19,6 +19,5 @@ public class Interaction implements MouseMotionListener {
         board.mX = e.getX();
         board.mY = e.getY();
         System.out.println("X: " + board.mX + ", Y: " + board.mY);
-        
     }
 }
